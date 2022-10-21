@@ -1,0 +1,220 @@
+/*General Style Information*/
+
+body{
+    background-color: black;
+    font-family:'Oswald',serif;;
+    
+}
+
+.row {
+    width:720px;
+    margin:10px auto 10px auto;
+}
+.image-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+  
+  /* Images used */
+  .img1 { background-image: url("img/Main.png"); }
+  .img2 { background-image: url("img/Bio.png"); }
+  .img3 { background-image: url("img/Assignment 1.png"); }
+  .img4 { background-image: url("img/Assignment 2.png"); }
+  .img5 { background-image: url("img/Assignment 3.png"); }
+  .img6 { background-image: url("img/Get In Touch.png"); }
+  
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #section1 {
+    height: 750px;
+    background-image: url("img/Main.png");
+    background-repeat: no-repeat;
+  }
+  
+  #section2 {
+    height: 750px;
+    background-image: url("img/Bio.png");
+    background-repeat: no-repeat;
+  }
+  
+  #section3 {
+    height: 1200px;
+    background-image: url("img/Assignment 1.png");
+    background-repeat: no-repeat;
+  }
+  
+  #section4 {
+    height: 1200px;
+    background-image: url("img/Assignment 2.png");
+    background-repeat: no-repeat;
+  }
+
+  #section5 {
+    height: 1200px;
+    background-image: url("img/Assignment 3.png");
+    background-repeat: no-repeat;
+  }
+  
+  #section6 {
+    height: 750px;
+    background-image: url("img/Get In Touch.png");
+    background-repeat: no-repeat;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 85px;
+  }
+
+/*Text style Information*/
+
+h1{
+    color: rgb(204, 228, 250);
+    text-align: center;
+    font-style: oblique;
+    font-size: 150px;
+}
+
+
+h2{
+    color: rgb(204, 228, 250);
+    text-align: center;
+    font-style: oblique;
+    font-size: 60px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+
+
+
+a{
+    font-size: 10px;
+}
+
+a:link, a:visited {
+    color: rgb(173, 202, 241);
+}
+
+a:hover {
+    color: rgb(61, 98, 197);
+}
+
+a:active {
+    color: black;
+}
+
+/*Breakpoint*/
+
+@media only screen and (max-width:600px) {
+
+    body{
+        background-color: black;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(204, 228, 250);
+    }
+
+    p{
+        color:aliceblue;
+        font-size: 90px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: rgb(204, 228, 250);
+    }
+
+    p{
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+    
+    a:link, a:visited {
+        color: rgb(173, 202, 241);
+    }
+    
+    a:hover {
+        color: rgb(61, 98, 197);
+    }
+    
+    a:active {
+        color: black;
+    }
+    
+}
+
+h1.ex1 {
+  padding: 200px;
+}
+
+h2.ex1 {
+  padding: 60px;
+}
+
+p.ex1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+h2.ex2 {
+  padding: 40px;
+}
+
+p.ex2 {
+  padding: 80px;
+}
+
+h2.ex3 {
+  padding: 40px;
+}
+
+p.ex3 {
+  padding: 80px;
+}
+
+h2.ex4 {
+  padding: 40px;
+}
+
+p.ex4 {
+  padding: 40px;
+}
+
+h2.ex5 {
+  padding: 40px;
+}
+
+p.ex5 {
+  padding: 80px;
+}
